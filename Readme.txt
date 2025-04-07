@@ -1,56 +1,49 @@
-ƒƒc[ƒ‹ŠT—v„
-run.bat‚ÅŒŸõ’l‚ðŽw’èBŒŸõ’l‚ªŠÜ‚Ü‚ê‚écsvƒtƒ@ƒCƒ‹‚ð“Á’è‚µAresult.txt‚Éo—Í‚·‚éB
+ï¼œãƒ„ãƒ¼ãƒ«æ¦‚è¦ï¼ž
+run.batã§æ¤œç´¢å€¤ã‚’æŒ‡å®šã€‚æ¤œç´¢å€¤ãŒå«ã¾ã‚Œã‚‹csvãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç‰¹å®šã—ã€result.txtã«å‡ºåŠ›ã™ã‚‹ã€‚
 
-ƒƒCƒ“ƒXƒg[ƒ‹•Ò„
-@¡Python ƒCƒ“ƒXƒg[ƒ‹
-@@https://www.python.org/downloads/
-@@
-@@2023/4/21 Žž“_‚ÌÅVˆÀ’è”ÂF3.11.3 ‚ðŽg—p
+ï¼œã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç·¨ï¼ž
+ã€€â– Python ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+ã€€ã€€https://www.python.org/downloads/
 
-@¡VisualStudioCode ƒCƒ“ƒXƒg[ƒ‹
-@@https://code.visualstudio.com/Download
-@@
-@@2023/4/21 Žž“_‚ÌÅVˆÀ’è”ÂF1.77.3 ‚ðŽg—p
+ï¼œäº‹å‰æº–å‚™ç·¨ï¼ž
+ã€€â‘ ä»®æƒ³ç’°å¢ƒä½œæˆ
+ã€€ã€€å‚è€ƒURLï¼šhttps://qiita.com/nosniklim/items/1d4c480e3accd3eb8c0f
+ã€€ã€€
+ã€€ã€€ãƒ»ä»®æƒ³ç’°å¢ƒä½œæˆ
+ã€€ã€€ã€€py -m venv csvdata_extraction_tool_allfiles
+ã€€
+ã€€ã€€ãƒ»ä»®æƒ³ç’°å¢ƒã‚’æœ‰åŠ¹ã«ã™ã‚‹
+ã€€ã€€ã€€cd csvdata_extraction_tool_allfiles
+ã€€ã€€ã€€Scripts\activate
 
-ƒŽ–‘O€”õ•Ò„
-@‡@‰¼‘zŠÂ‹«ì¬
-@@ŽQlURLFhttps://qiita.com/nosniklim/items/1d4c480e3accd3eb8c0f
-@@
-@@E‰¼‘zŠÂ‹«ì¬
-@@@py -m venv csvdata_extraction_tool_allfiles
-@
-@@E‰¼‘zŠÂ‹«‚ð—LŒø‚É‚·‚é
-@@@cd csvdata_extraction_tool_allfiles
-@@@Scripts\activate
+ã€€â‘¡ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+ã€€ã€€ãƒ»pipã®æœ€æ–°åŒ–ï¼ˆãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç”¨ã‚³ãƒžãƒ³ãƒ‰ã‚’æœ€æ–°ã«ã™ã‚‹ï¼‰
+ã€€ã€€ã€€python -m pip install
 
-@‡Aƒ‰ƒCƒuƒ‰ƒŠ‚ÌƒCƒ“ƒXƒg[ƒ‹
-@@Epip‚ÌÅV‰»iƒ‰ƒCƒuƒ‰ƒŠƒCƒ“ƒXƒg[ƒ‹—pƒRƒ}ƒ“ƒh‚ðÅV‚É‚·‚éj
-@@@python -m pip install
+ã€€ã€€ãƒ»pandasã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ï¼ˆã‚¨ã‚¯ã‚»ãƒ«æ“ä½œã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªï¼‰
+ã€€ã€€ã€€pip install pandas
 
-@@Epandas‚ÌƒCƒ“ƒXƒg[ƒ‹iƒGƒNƒZƒ‹‘€ì‚Ìƒ‰ƒCƒuƒ‰ƒŠj
-@@@pip install pandas
+ã€€â‘¢csvdata_extraction_tool_allfiles.pyã‚’â‘ ã§ä½œæˆã—ãŸä»®æƒ³ç’°å¢ƒé…ä¸‹ã«æŒã£ã¦ã„ã
 
-@‡Bcsvdata_extraction_tool_allfiles.py‚ð‡@‚Åì¬‚µ‚½‰¼‘zŠÂ‹«”z‰º‚ÉŽ‚Á‚Ä‚¢‚­
+ã€€â‘£run.batãƒ•ã‚¡ã‚¤ãƒ«ã®ä¸­èº«ã‚’ç·¨é›†ã€‚ä¸‹è¨˜ã®å¼•æ•°ã§å®Ÿè¡Œã•ã‚Œã‚‹ãŸã‚æŠ½å‡ºã—ãŸã„ãƒ‡ãƒ¼ã‚¿ã«å¿œã˜ã¦å¤‰æ›´ã™ã‚‹
+ã€€ã€€py csvdata_extraction_tool_allfiles.py æ¤œç´¢å¯¾è±¡CSVãƒ•ã‚¡ã‚¤ãƒ«ã®è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã€€ æ¤œç´¢å€¤ã€€>> result.txt
 
-@‡Crun.batƒtƒ@ƒCƒ‹‚Ì’†g‚ð•ÒWB‰º‹L‚Ìˆø”‚ÅŽÀs‚³‚ê‚é‚½‚ß’Šo‚µ‚½‚¢ƒf[ƒ^‚É‰ž‚¶‚Ä•ÏX‚·‚é
-@@py csvdata_extraction_tool_allfiles.py ŒŸõ‘ÎÛCSVƒtƒ@ƒCƒ‹‚ÌeƒfƒBƒŒƒNƒgƒŠ@ ŒŸõ’l@>> result.txt
+ã€€ã€€(ä¾‹.)137ã€459ã€Brandonã€Jackã®å˜èªžã‚’å«ã‚€ãƒ•ã‚¡ã‚¤ãƒ«ã‚’æŠ½å‡ºã—ãŸã„å ´åˆ
+ã€€ã€€ã€€ã€€set file_path="C:\Users\~\csvdata_extraction_tool_allfiles\testfolder"
 
-@@(—á.)137A459ABrandonAJack‚Ì’PŒê‚ðŠÜ‚Þƒtƒ@ƒCƒ‹‚ð’Šo‚µ‚½‚¢ê‡
-@@@@set file_path="C:\Users\~\csvdata_extraction_tool_allfiles\testfolder"
+ã€€ã€€ã€€ã€€py csvdata_extraction_tool_allfiles.py %file_path% 137 >> result.txt
+ã€€ã€€ã€€ã€€py csvdata_extraction_tool_allfiles.py %file_path% 459 >> result.txt
+ã€€ã€€ã€€ã€€py csvdata_extraction_tool_allfiles.py %file_path% Brandon >> result.txt
+ã€€ã€€ã€€ã€€py csvdata_extraction_tool_allfiles.py %file_path% Jack >> result.txt
 
-@@@@py csvdata_extraction_tool_allfiles.py %file_path% 137 >> result.txt
-@@@@py csvdata_extraction_tool_allfiles.py %file_path% 459 >> result.txt
-@@@@py csvdata_extraction_tool_allfiles.py %file_path% Brandon >> result.txt
-@@@@py csvdata_extraction_tool_allfiles.py %file_path% Jack >> result.txt
+ã€€â‘¤ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã«ã¦run.batãƒ•ã‚¡ã‚¤ãƒ«ã‚’å®Ÿè¡Œã€‚çµæžœãŒresult.txtã«å‡ºåŠ›ã•ã‚Œã‚‹ã€‚
+ã€€ã€€run.bat
 
-@‡DƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚É‚Ärun.batƒtƒ@ƒCƒ‹‚ðŽÀsBŒ‹‰Ê‚ªresult.txt‚Éo—Í‚³‚ê‚éB
-@@run.bat
+ï¼œæ¯Žå›žï¼šã‚³ãƒžãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³è½ã¨ã—ãŸã‚‰ï¼ž
+ã€€ãƒ»ä»®æƒ³ç’°å¢ƒã‚’æœ‰åŠ¹ã«ã™ã‚‹
+ã€€ã€€cd csvdata_extraction_tool_allfiles
+ã€€ã€€Scripts\activate
 
-ƒ–ˆ‰ñFƒRƒ}ƒ“ƒhƒ‰ƒCƒ“—Ž‚Æ‚µ‚½‚ç„
-@E‰¼‘zŠÂ‹«‚ð—LŒø‚É‚·‚é
-@@cd csvdata_extraction_tool_allfiles
-@@Scripts\activate
-
-ƒrun.batƒtƒ@ƒCƒ‹ŽÀsŽž‚É•¶Žš‰»‚¯‚µ‚Ä‚¢‚é‚Æ‚«AƒfƒBƒŒƒNƒgƒŠŽw’è‚ÅƒGƒ‰[‚ªo‚éê‡„
-@chcp 65001
-@‚ð“ü—Í‚µ‚ÄÄ“xŽÀs
+ï¼œrun.batãƒ•ã‚¡ã‚¤ãƒ«å®Ÿè¡Œæ™‚ã«æ–‡å­—åŒ–ã‘ã—ã¦ã„ã‚‹ã¨ãã€ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæŒ‡å®šã§ã‚¨ãƒ©ãƒ¼ãŒå‡ºã‚‹å ´åˆï¼ž
+ã€€chcp 65001
+ã€€ã‚’å…¥åŠ›ã—ã¦å†åº¦å®Ÿè¡Œ
