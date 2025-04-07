@@ -1,9 +1,16 @@
 ＜ツール概要＞
-抽出したい列のアルファベットと検索値をrun.batで指定。データセットからファイルを特定し、result.txtに出力する。
+run.batで検索値を指定。検索値が含まれるcsvファイルを特定し、result.txtに出力する。
 
 ＜インストール編＞
 　■Python インストール
 　　https://www.python.org/downloads/
+　　
+　　2023/4/21 時点の最新安定板：3.11.3 を使用
+
+　■VisualStudioCode インストール
+　　https://code.visualstudio.com/Download
+　　
+　　2023/4/21 時点の最新安定板：1.77.3 を使用
 
 ＜事前準備編＞
 　①仮想環境作成
@@ -23,16 +30,18 @@
 　　・pandasのインストール（エクセル操作のライブラリ）
 　　　pip install pandas
 
-　③csvdata_extraction_tool_allfiles.py、run.bat、testfolderを①で作成した仮想環境配下に持っていく
+　③csvdata_extraction_tool_allfiles.pyを①で作成した仮想環境配下に持っていく
 
 　④run.batファイルの中身を編集。下記の引数で実行されるため抽出したいデータに応じて変更する
-　　py csvdata_extraction_tool_allfiles.py 検索対象CSVファイルの親ディレクトリ　抽出対象列のアルファベット 検索値　>> result.txt
+　　py csvdata_extraction_tool_allfiles.py 検索対象CSVファイルの親ディレクトリ　 検索値　>> result.txt
 
-　　(例.)E列が137の値かつD列の値が459のファイルを抽出したい場合
+　　(例.)137、459、Brandon、Jackの単語を含むファイルを抽出したい場合
 　　　　set file_path="C:\Users\~\csvdata_extraction_tool_allfiles\testfolder"
 
-　　　　py csvdata_extraction_tool_allfiles.py %file_path% "E" 137 >> result.txt
-　　　　py csvdata_extraction_tool_allfiles.py %file_path% "D" 459 >> result.txt
+　　　　py csvdata_extraction_tool_allfiles.py %file_path% 137 >> result.txt
+　　　　py csvdata_extraction_tool_allfiles.py %file_path% 459 >> result.txt
+　　　　py csvdata_extraction_tool_allfiles.py %file_path% Brandon >> result.txt
+　　　　py csvdata_extraction_tool_allfiles.py %file_path% Jack >> result.txt
 
 　⑤コマンドプロンプトにてrun.batファイルを実行。結果がresult.txtに出力される。
 　　run.bat
