@@ -2,7 +2,7 @@
 run.batで検索値を指定。検索値が含まれるcsvファイルを特定し、result.txtに出力する。
 
 ＜インストール編＞
-　■Python インストール
+　■Python インストール（このプロジェクトではPython 3.12.4を使用しています）
 　　https://www.python.org/downloads/
 
 ＜事前準備編＞
